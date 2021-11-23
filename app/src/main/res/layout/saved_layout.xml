@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+
+
+    <ImageView
+        android:id="@+id/placeImageSave"
+        android:layout_width="147dp"
+        android:layout_height="125dp"
+        />
+
+    <TextView
+        android:id="@+id/sourceSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/placeImageSave"
+        android:textSize="15sp"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/titleSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/placeImageSave"
+        android:layout_below="@id/sourceSave"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/dateSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleSave"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="0dp"
+        android:layout_toRightOf="@id/placeImageSave"
+        android:textSize="15dp" />
+
+
+
+
+</RelativeLayout>

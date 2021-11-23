@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoggedInActivity">
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonLogedOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonSavedArticles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saved Articles" />
+
+    <TextView
+        android:id="@+id/source"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:text="CHOOSE CATEGORIES FOR YOUR NEWS"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_science"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCIENCE"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_general"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GENERAL"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_entertainment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENTERTAINMENT"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_health"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HEALTH"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_business"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUSINESS"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_technology"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TECHNOLOGY"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_sport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SPORT"
+        android:onClick="onCheckboxClicked"/>
+
+    <TextView
+        android:id="@+id/textNotyfication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:text="NOTYFICATION SETTINGS"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"/>
+
+    <Switch
+        android:id="@+id/switchNotyfication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do you want to get notyfications?" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonNotificationSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to notyfication settings" />
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

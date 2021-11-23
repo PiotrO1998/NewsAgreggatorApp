@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">News</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="profile">Profile</string>
+    <string name="favorite">Favorite</string>
+    <string name="explore">Explore</string>
+    <string name="search">Search</string>
+    <string name="searchable">Search</string>
+
+    <string name="food">Sport</string>
+    <string name="science">Science</string>
+    <string name="general">Travel</string>
+    <string name="entertainment">Businnes</string>
+    <string name="health">Sport</string>
+    <string name="buisness">Science</string>
+    <string name="technology">Travel</string>
+    <string name="sport">Businnes</string>
+    <string name="sportNews">Today running competition took place</string>
+    <string name="scienceNews">Are we going to live in Mars</string>
+    <string name="travelNews">How to travel in pandemic</string>
+    <string name="businessNews">Ten best growing Starts Up</string>
+
+</resources>
